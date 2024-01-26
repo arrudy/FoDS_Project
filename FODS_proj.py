@@ -188,13 +188,13 @@ print(bir_mrx)
 print(calc_precision(bir_mrx), " Precision")
 
 #obtaining rand_indexes for Birch clustering on dataset reduced to u dimensions
-'''
+
 for u in range(1,10):
     train_set_dim = decomposition.PCA(n_components=u).fit_transform(train_set)
 
     BIR = cluster.Birch( n_clusters=10,compute_labels=True).fit(train_set_dim)
     score = metrics.rand_score (train_label, BIR.labels_)
-    print((u,score))'''
+    print((u,score))
 
 
 
