@@ -385,7 +385,7 @@ plt.clf()
 #
 #
 #
-# the exact code suggested by ChatGPT
+# the exact code given by ChatGPT
 #
 # imports ommited
 #
@@ -444,6 +444,14 @@ print(conf_matrix)
 print("Classification Report:")
 print(class_report)
 
+
+
+
+#
+#
+# end of ChatGPT's code
+#
+#
 
 
 
