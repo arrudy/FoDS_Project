@@ -211,7 +211,7 @@ print("Unassigned 5dim OPTICS: " + str(-sum(filter( lambda x : x == -1 , OP5.lab
 print("Unassigned 5dim HDBSCAN: " + str(-sum(filter( lambda x : x == -1 , HDB5.labels_ ))))
 
 
-'''
+
 #creates the animation for the 4d scatter plot. Takes a significant amount of time to complete
 fig = plt.figure()
 ax = fig.add_subplot(111, projection='3d')
@@ -242,7 +242,7 @@ def update(frame):
 # Create the animation
 an = animation.FuncAnimation(fig, update, frames=720, interval=100, blit=False)
 an.save('scatter_4d.gif', writer='imagemagick', fps=30)
-'''
+
 
 
 
